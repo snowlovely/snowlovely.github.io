@@ -12,3 +12,20 @@ h1#site-title {
 .author-info__name {
     color: #ff7242;
 }
+
+/* 头图透明 */
+#page-header{
+  background: transparent!important;
+}
+
+
+/* 页脚透明 */
+
+#footer {
+    background: transparent !important;
+}
+
+
+div#aside-content{
+  background: rgba(255, 255, 255, 0.0);
+}
