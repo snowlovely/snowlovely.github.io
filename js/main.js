@@ -6,11 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const $searchEle = document.querySelector('#search-button')
   let searchWidth = $searchEle && $searchEle.offsetWidth
   
-  var full_page = document.getElementsByClassName("full_page");
-  if (full_page.length != 0) {
-    full_page[0].style.background = "transparent";
-  }
-
   const adjustMenu = (change = false) => {
     if (change) {
       blogNameWidth = $blogName && $blogName.offsetWidth
